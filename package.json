@@ -1,0 +1,32 @@
+{
+  "name": "@jikyo/romaji",
+  "version": "0.0.1",
+  "description": "A converter library to romanize Japanese hiragana/katakana string by standard and IME typing styles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint --fix index.js lib/ test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jikyo/romaji.js.git"
+  },
+  "keywords": [
+    "romaji",
+    "japanese",
+    "language"
+  ],
+  "author": "Junnosuke Moriya <shinsen.jikyo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jikyo/romaji.js/issues"
+  },
+  "homepage": "https://github.com/jikyo/romaji.js#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^6.2.1",
+    "rewire": "^4.0.1"
+  }
+}
